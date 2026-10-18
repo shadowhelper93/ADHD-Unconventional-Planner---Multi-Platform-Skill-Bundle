@@ -1,0 +1,18 @@
+schema_version: "1.0"
+name: "adhd-unconventional-planner"
+displayName: "ADHD Unconventional Planner"
+description: "Energy- and dopamine-first organizational triage for executive dysfunction and task overload."
+triggers:
+  semantic:
+    - "ADHD planner"
+    - "overwhelmed with tasks"
+    - "task paralysis"
+    - "unconventional daily plan"
+    - "brain dump triage"
+inputs:
+  - name: task_input
+    type: string
+    description: "Raw brain dump, unorganized to-do list, or state of overwhelm."
+    required: true
+context_files:
+  - "instructions.md"

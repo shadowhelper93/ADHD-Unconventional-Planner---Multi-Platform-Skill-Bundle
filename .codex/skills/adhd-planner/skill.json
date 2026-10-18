@@ -1,0 +1,14 @@
+{
+  "name": "adhd-unconventional-planner",
+  "version": "1.0.0",
+  "description": "Unconventional daily and weekly planning system tailored for ADHD minds. Use when handling executive dysfunction, task paralysis, or overwhelmed to-do lists.",
+  "triggers": [
+    "ADHD",
+    "paralysis",
+    "overwhelmed",
+    "unconventional plan",
+    "brain dump",
+    "low dopamine"
+  ],
+  "entrypoint": "prompt.md"
+}
